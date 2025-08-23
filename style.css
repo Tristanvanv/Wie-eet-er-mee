@@ -1,8 +1,19 @@
+@font-face {
+font-family: "Phosphate Inline";
+  src:
+    local("Phosphate Inline"),
+    url("./fonts/PhosphateInline/PhosphateInline.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  font-synthesis: none; 
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Phosphate Inline', sans-serif;
 }
 
 body {
@@ -16,13 +27,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.8rem;
+    font-size: 1rem;
     position: sticky;
     top: 0;
     z-index: 999;
 }
 
-.navbar-container {
+.navbar_container {
     display: none;
     justify-content: space-between;
     height: 80px;
@@ -40,10 +51,25 @@ body {
     text-align: center;
 }
 
+.navbar_menu .row:link,
+.navbar_menu .row:visited {    
+  color: #292624;
+  text-decoration: none;
+}
+
 .navbar_links {
-    color: #d8d262;
     display: none;
     text-decoration:none;
+    color: #292929;
+    list-style: none;
+}
+
+.label {
+    text-decoration: none;
+}
+
+.navbar_item {
+    font-weight: 400;
 }
 
 .logo {
@@ -51,5 +77,11 @@ body {
     align-items: center;
     justify-content: center;
     align-content: center;
-    
+}
+
+.account {
+    font-size: 1.8rem;
+    color: #d8d262;
+    position: relative;
+    padding: 10px;
 }
