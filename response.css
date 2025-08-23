@@ -7,20 +7,21 @@
         z-index: 0;
         width: 100vw;
         padding: 0;
+        background: #292624;
     }
 
     .navbar_menu {
         display: flex;
         flex-direction: column;
-        margin-top: 250px;
         width: 100vw;
         position: absolute;
         top: 0;
         transform: translateY(-100%);
         opacity: 0;
         transition: all 0.5s ease;
-        height: 50vh;
+        height: 100vh;
         z-index: -1;
+        padding-top: 100px;
     }
     .navbar_menu .row {
         display: flex;
@@ -42,7 +43,7 @@
         opacity: 1;
         transition: all 0.5s ease;
         z-index: 99;
-        height: 50vh;
+        height: 100vh;
         font-size: 1.4rem;
         width: 100vw;
     }
