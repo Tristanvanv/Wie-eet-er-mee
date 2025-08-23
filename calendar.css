@@ -26,11 +26,21 @@
     background-color: #d8d262;
     font-weight: 400;
     border-radius: 0 10px 0 0;
+    padding-left: 0.3rem;
 }
 
 .empty {
     color: #a3a2a2;
     font-size: 0.8rem;
     font-family: "Kumbh Sans", sans-serif;
-    padding-top: 0.3rem;
+    padding: 0.3rem 0 0 0.3rem;
+    
+}
+
+.controls .current {
+     cursor: pointer; 
+    }
+
+.controls .next { 
+    cursor: pointer; 
 }

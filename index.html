@@ -35,8 +35,9 @@
               <span class="bar"></span>
               <span class="bar"></span>
             </div>
-            <div class="account">
-                <i class="bi bi-person-heart account"></i>
+            <div onclick="logbtn()" class="account">
+                <i onclick="" class="bi bi-person-heart account"></i>
+                <script>function logbtn(){ window.location.assign("/login.html"); }</script>
             </div>
             <ul class="navbar_menu">
                 <li class="nav_block">
@@ -62,7 +63,8 @@
         </nav>
         <div class="main">
           <div class="logo">
-            <img src="./images/logo-off.png" id="logo" loading="lazy" height="80px" width="180px" alt="Samen sporten in een rustige privé fitnessruimte">
+            <img src="./images/logo-off.png" onclick="homebtn()" id="logo" loading="lazy" height="80px" width="180px" alt="Samen sporten in een rustige privé fitnessruimte">
+            <script>function homebtn(){ window.location.assign("./index.html"); }</script>
           </div>
         </div>
         <div class="hero_section">
@@ -70,20 +72,15 @@
                 <span class="current">Deze week</span>
                 <span class="next">Volgende week</span>
             </div>
-        <div id="root">
-        </div>
+        <div class="home_cal"></div>
         </div>
       </div>
     </div>
-    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
-    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
-    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-    <script type="text/babel" src="./cal.js"></script>
-
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollSmoother.min.js"></script>
 
     <script src="./app.js"></script>
+    <script src="./cal.js" defer></script>
   </body>
 </html>

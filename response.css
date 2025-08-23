@@ -37,7 +37,7 @@
       }
 
     .navbar_menu.active {
-        background: #292624;
+        background-color: #292624;
         top: 0;
         transform: translateY(0);
         opacity: 1;
