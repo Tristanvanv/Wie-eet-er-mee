@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Aanwezigheid</title>
+    <title>aanwezigheid</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap"
       rel="stylesheet"
@@ -35,37 +35,61 @@
               <span class="bar"></span>
               <span class="bar"></span>
             </div>
-            <div onclick="logbtn()" class="account">
-                <i class="bi bi-person-heart account"></i>
-                <script>function logbtn(){ window.location.assign("/login.html"); }</script>
-            </div>
-             <ul class="navbar_menu">
-                <li class="navbar_links">
-                    <a class="row navbar_item" href="./index.html"><span class="label">HOME</span>
-                        <span class="chev">></span></a>
-                    </li>
-                <li class="navbar_links">
-                    <a class="row navbar_item" href="./huis.html"><span class="label">HUISHOUDEN BEHEREN</span>
-                        <span class="chev">></span></a>
-                    </li>
-                <li class="navbar_links">
-                    <a class="row navbar_item" href="./aanwezigheid.html"><span class="label">MIJN AANWEZIGHEID</span>
-                        <span class="chev">></span></a>
-                    </li>
-                <li class="navbar_links">
-                    <a class="row navbar_item" href="./account.html"><span class="label">MIJN ACCOUNT</span>
-                        <span class="chev">></span></a>
-                    </li>
-              </ul>
+            <!--  <div onclick="logbtn()" class="account">
+              <i onclick="" class="bi bi-person-heart account"></i> 
+              <script>
+                function logbtn() {
+                  window.location.assign("/login.html");
+                }
+              </script> 
+            </div> -->
+            <ul class="navbar_menu">
+              <li class="nav_block"></li>
+              <li class="navbar_links">
+                <a class="row navbar_item" href="./index.html"
+                  ><span class="label">HOME</span>
+                  <span class="chev"><i class="bi bi-heart-arrow"></i></span
+                ></a>
+              </li>
+              <li class="navbar_links">
+                <a class="row navbar_item" href="./huis.html"
+                  ><span class="label">HUISHOUDEN BEHEREN</span>
+                  <span class="chev"><i class="bi bi-heart-arrow"></i></span
+                ></a>
+              </li>
+              <li class="navbar_links">
+                <a class="row navbar_item" href="./aanwezigheid.html"
+                  ><span class="label">MIJN AANWEZIGHEID</span>
+                  <span class="chev"><i class="bi bi-heart-arrow"></i></span
+                ></a>
+              </li>
+              <li class="navbar_links">
+                <a class="row navbar_item" href="./calendar.html"
+                  ><span class="label">MIJN ACCOUNT</span>
+                  <span class="chev"><i class="bi bi-heart-arrow"></i></span
+                ></a>
+              </li>
+            </ul>
           </div>
         </nav>
-
-
         <div class="main">
           <div class="logo">
-            <img src="./images/logo-off.png" onclick="homebtn()" id="logo" loading="lazy" height="80px" width="180px" alt="Samen sporten in een rustige privé fitnessruimte">
-            <script>function homebtn(){ window.location.assign("./index.html"); }</script>
+            <img
+              src="./images/logo-off.png"
+              onclick="homebtn()"
+              id="logo"
+              loading="lazy"
+              height="80px"
+              width="180px"
+              alt="Wie eet er mee"
+            />
+            <script>
+              function homebtn() {
+                window.location.assign("./index.html");
+              }
+            </script>
           </div>
+        </div>
       </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>

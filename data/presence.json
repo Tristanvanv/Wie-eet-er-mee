@@ -1,0 +1,34 @@
+{
+  "households": {
+    "yvonne": { "name": "Yvonne", "color": "#d8d262" },
+    "elly":   { "name": "Elly",   "color": "#d8d262" }
+  },
+  "people": {
+    "tristan": { "name": "Tristan" },
+    "martine": { "name": "Martine" }
+  },
+  "schedule": {
+    "byOffset": {
+      "0": {                           
+        "1": { "yvonne": ["tristan"],           "elly": [] },                    
+        "2": { "yvonne": ["tristan","martine"], "elly": [] },                    
+        "3": { "yvonne": [],                    "elly": ["tristan"] },          
+        "4": { "yvonne": ["martine"],           "elly": [] },                    
+        "5": { "yvonne": [],                    "elly": ["tristan","martine"] }, 
+        "6": { "yvonne": [],                    "elly": [] },                    
+        "7": { "yvonne": ["tristan"],           "elly": [] }                     
+      },
+      "1": {                           
+        "1": { "yvonne": [],           "elly": ["tristan"] },
+        "2": { "yvonne": [],           "elly": [] },
+        "3": { "yvonne": ["martine"],  "elly": [] },
+        "4": { "yvonne": [],           "elly": [] },
+        "5": { "yvonne": [],           "elly": ["martine"] },
+        "6": { "yvonne": [],           "elly": [] },
+        "7": { "yvonne": [],           "elly": [] }
+      }
+    }
+  },
+  "lastUpdated": "2025-08-24T10:12:00Z",
+  "version": 1
+}
