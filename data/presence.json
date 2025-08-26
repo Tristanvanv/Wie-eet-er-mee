@@ -10,6 +10,7 @@
   "schedule": {
     "byOffset": {
       "0": {                           
+<<<<<<< HEAD
         "1": { "yvonne": [""],           "elly": [] },                    
         "2": { "yvonne": ["",""],        "elly": [] },                    
         "3": { "yvonne": [],             "elly": [""] },          
@@ -17,13 +18,28 @@
         "5": { "yvonne": [],             "elly": [""] }, 
         "6": { "yvonne": [],             "elly": [] },                    
         "7": { "yvonne": [""],           "elly": [] }                     
+=======
+        "1": { "yvonne": ["tristan"],           "elly": ["martine"] },                    
+        "2": { "yvonne": ["tristan"], "elly": ["martine"] },                    
+        "3": { "yvonne": [],                    "elly": [] },          
+        "4": { "yvonne": [],           "elly": [] },                    
+        "5": { "yvonne": [],                    "elly": [] }, 
+        "6": { "yvonne": [],                    "elly": [] },                    
+        "7": { "yvonne": [],           "elly": [] }                     
+>>>>>>> 7da0ab12a7e75ad22f45a2c9e83aa66fbe4cdcf5
       },
       "1": {                           
         "1": { "yvonne": [],           "elly": [""] },
         "2": { "yvonne": [],           "elly": [] },
+<<<<<<< HEAD
         "3": { "yvonne": [""],         "elly": [] },
         "4": { "yvonne": [],           "elly": [] },
         "5": { "yvonne": [],           "elly": [""] },
+=======
+        "3": { "yvonne": [],           "elly": [] },
+        "4": { "yvonne": ["tristan"],           "elly": [] },
+        "5": { "yvonne": ["tristan"],           "elly": ["martine"] },
+>>>>>>> 7da0ab12a7e75ad22f45a2c9e83aa66fbe4cdcf5
         "6": { "yvonne": [],           "elly": [] },
         "7": { "yvonne": [],           "elly": [] }
       }
