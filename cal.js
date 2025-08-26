@@ -59,7 +59,7 @@
   const param = new URLSearchParams(location.search);
   const HOUSEHOLD = (param.get("household") || "").toLowerCase();
 
-  const DATA_URL = 'https://attendenceprogram.onrender.com';
+  const DATA_URL = 'https://attendenceprogram.onrender.com/presence';
 
   async function loadPresence() {
     const cacheKey = "presence-cache";
